@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Educacion de Hoja de Vida</title>
+</head>
+
+<body>
+    <header>
+    	<!-- Datos Personales de la Hoja de Vida -->
+		<h1>
+        <img src="Imagenes/LogoSBC.svg" alt="imagen del logo de SBC" title="Imagen Logo SBC" width="50" height="50"> Hoja de Vida
+        </h1>
+        <h2>Datos Personales</h2>
+        <h3>Nombres:Paulina del Valle &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Apellidos: Miralles Hernández</h3>
+        <h3>Fecha de Nacimiento: 22-06-1956 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        Lugar de Nacimiemto: Puerto Cumarebo - Falcón Venezuela</h3>	
+ 	</header>
+    <nav>   
+      	<!-- enlaces al menú básico: 
+           Inicio (index.html), educación (educacion.html) y experiencia (experiencia.html). -->  
+        <li><a href="file:///C|/Users/Paulina/proyecto de vida/index.html"><em>Inicio</em></a></li>
+        <li><a href="file:///C|/Users/Paulina/proyecto de vida/educacion.html"><em>Educación</em></a></li>
+        <li><a href="file:///C|/Users/Paulina/proyecto de vida/experiencia.html"><em>Experiencia</em></a></li>
+	</nav> 
+	<article>  
+    	<h1>Educación</h1>
+        
+        <!-- Tabla de estudios realizados -->
+        <table border="1" cellpadding="0" cellspacing="0">
+		<thead>
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1999</td>
+				<td>Universidad Católica Andrés Bello</td>
+				<td>Caracas Venezuela</td>
+				<td>SI</td>
+			</tr>
+			<tr>
+				<td>1996</td>
+				<td>Universidad del Zulia</td>
+				<td>Punto Fijo Venezuela</td>
+				<td>SI</td>
+			</tr>
+			<tr>
+				<td>1.982</td>
+				<td>Universidad Central de Venezuela</td>
+				<td>Caracas Venezuela</td>
+				<td>SI</td>
+			</tr>
+			
+			</tbody>
+		</table>
+        
+        <!-- Formulario para ingresar estudios -->
+        <h3>Agregar Estudios</h3>
+		<form>
+		  	<p><label for="Año">Año</label>
+               <input type="number" required placeholder="Ej: 2018" min="1950" max="2018"></p>
+			<p><label for="Institución">Institución</label>
+			   <input type="text" required name="Institución" placeholder="nombre de Institución"></p>
+			<p><label for="Lugar" name="Lugar" >Lugar</label>
+			   <input type="text" required placeholder="Ciudad, País"></p> 
+			<p><label for="¿Culminó?">¿Culminó?</label>
+			   <input type="radio" name="¿Culminó?">SI
+			   <input type="radio" name="¿Culminó?">NO
+            <p><input type="submit" value="Enviar"></p>
+		</form>
+	</article>  
+        
+	<footer>
+    	<!-- información de contacto -->
+        <p>email: mirallesp@gmail.com &nbsp&nbsp Instagram: @paulina.miralles &nbsp&nbsp telefono: 51.949789631</p>
+	</footer>
+</body>
+</html>
